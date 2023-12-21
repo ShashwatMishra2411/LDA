@@ -28,9 +28,9 @@ Before running the script, make sure you have the following installed:
 The script produces the following outputs:
 
 - **Document-Topic Matrix Heatmap:** Visual representation of the probability distribution of topics for each document. 
-![Screenshot from 2023-12-22 02-36-58.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-12-22%2002-36-58.png)
+![HeatMap](Screenshot from 2023-12-22 02-36-58.png)
 - **Topic Word Distribution Plots:** Bar plots showing the probability distribution of words in each topic.
-![img.png](img.png)
+![BarGraph](Screenshot from 2023-12-22 02-42-01.png)
 
 ## Additional Notes
 
