@@ -1,6 +1,5 @@
 import os
 import pdfplumber
-import json
 import numpy as np
 import glob
 import seaborn as sns
@@ -68,13 +67,13 @@ def lemmatization(texts, allowed_postags=["NOUN", "ADJ", "VERB", "ADV"]):
     return (texts_out)
 
 
-
 def gen_words(texts):
     final = []
     for text in texts:
         new = gensim.utils.simple_preprocess(text, deacc=True)
         final.append(new)
     return (final)
+
 
 # the data is converted to its root words
 lemmatized_texts = lemmatization(data)
