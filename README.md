@@ -34,7 +34,8 @@ The script produces the following outputs:
 
 ## Additional Notes
 
-- The script uses spaCy for lemmatization and the en_core_web_sm model. Make sure it is installed (`python -m spacy download en_core_web_sm`).
+- The script uses spaCy for lemmatization and the en_core_web_sm model. Make sure it is installed (`pip install -U spacy install https://huggingface.co/spacy/en_core_web_sm/resolve/main/en_core_web_sm-any-py3-none-any.whl
+`).
 - The stopwords can be customized by modifying the `gist_stopwords.txt` file.
 
 ## Author
